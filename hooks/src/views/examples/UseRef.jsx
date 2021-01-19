@@ -65,8 +65,8 @@ const UseRef = (props) => {
             <SectionTitle title="Exercício #01" />
             <div className="center">
                 <div>
-                    <span className="text">Valor: [</span>
-                    <span className="text red">{value3}</span>
+                    <span className="text">Valor: {value3}[</span>
+                    <span className="text red">{count.current}</span>
                     <span className="text">]</span>
                 </div>
                 <input type="text" className="input" ref={myInput1} value={value1} onChange={e => setValue1(e.target.value)} />
