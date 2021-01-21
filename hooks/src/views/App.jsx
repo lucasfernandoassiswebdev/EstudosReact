@@ -8,7 +8,7 @@ import Content from '../components/layout/Content'
 const App = props => {
 
     return (
-                <div className="App">
+                <div class="App">
                     <Router>
                         <Menu />
                         <Content />

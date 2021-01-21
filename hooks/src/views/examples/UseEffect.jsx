@@ -28,7 +28,7 @@ const UseEffect = (props) => {
 
     // Ex #03
     useEffect(function () {
-        setResultadoParImpar(numberParImpar % 2 == 0 ? "Par" : "Ímpar")
+        setResultadoParImpar(numberParImpar % 2 === 0 ? "Par" : "Ímpar")
     }, [numberParImpar])
 
     return (
